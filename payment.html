@@ -4,102 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Payments UI</title>
-    <style>
-        * {
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-        }
-
-        .container {
-            width: 360px;
-            margin: 0 auto;
-            background-color: white;
-            padding: 20px;
-        }
-
-        .title {
-            text-align: center;
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-
-        .balance {
-            text-align: center;
-            font-size: 14px;
-            color: #999;
-        }
-
-        .amount {
-            text-align: center;
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-
-        .card {
-            background-color: #a68edc;
-            height: 180px;
-            border-radius: 20px;
-            padding: 20px;
-            color: white;
-            margin-bottom: 20px;
-        }
-
-        .card span {
-            display: block;
-            margin-bottom: 10px;
-        }
-
-        img {
-            width: 20rem;
-        }
-
-        svg {
-            float: left;
-            margin: 10px;
-            color: #0aa707;
-        }
-
-        svg:nth-child(2) {
-            float: right;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<section class="container">
-    <h1 class="title">Payments</h1>
-    
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="24"
-            height="24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M15 17h5l-1.405-1.405C18.79 14.79 18 13.42 18 12V9a6 6 0 10-12 0v3c0 1.42-.79 2.79-1.595 3.595L3 17h5m4 0v1a2 2 0 11-4 0v-1m4 0H9" />
-        </svg>
-       
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="24"
-            height="24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-        </svg>
+    <section class="container">
+        <h1 class="title">Payments</h1>
 
+        <div class="icons">
+            <svg ...>...</svg>
+            <svg ...>...</svg>
+        </div>
 
         <p class="balance">Balance</p>
         <p class="amount">$5 126</p>
+
         <img id="card" src="./images/image.png" alt="card">
+
         <section class="card">
             <span>Debit</span>
             <span>Victoria Robertson</span>
         </section>
-        <img src="images/image2.png" alt="footer">
+
+        <div class="footer">
+            <img src="images/image2.png" alt="footer">
+        </div>
     </section>
-    <section>
-    </section>
+
+
 </body>
 
 </html>
